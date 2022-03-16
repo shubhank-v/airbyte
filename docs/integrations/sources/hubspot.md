@@ -2,12 +2,12 @@
 
 ## Features
 
-| Feature | Supported? |
-| :--- | :--- |
-| Full Refresh Sync | Yes |
-| Incremental Sync | Yes |
-| Replicate Incremental Deletes | No |
-| SSL connection | Yes |
+| Feature                       | Supported? |
+| ----------------------------- | ---------- |
+| Full Refresh Sync             | Yes        |
+| Incremental Sync              | Yes        |
+| Replicate Incremental Deletes | No         |
+| SSL connection                | Yes        |
 
 ## Troubleshooting
 
@@ -17,33 +17,33 @@ Check out common troubleshooting issues for the HubSpot connector on our Discour
 
 This source is capable of syncing the following tables and their data:
 
-* [Campaigns](https://developers.hubspot.com/docs/methods/email/get_campaign_data)
-* [Companies](https://developers.hubspot.com/docs/api/crm/companies) \(Incremental\)
-* [Contact Lists](http://developers.hubspot.com/docs/methods/lists/get_lists) \(Incremental\)
-* [Contacts](https://developers.hubspot.com/docs/methods/contacts/get_contacts) \(Incremental\)
-* [Contacts List Memberships](https://legacydocs.hubspot.com/docs/methods/contacts/get_contacts)
-* [Deal Pipelines](https://developers.hubspot.com/docs/methods/pipelines/get_pipelines_for_object_type)
-* [Deals](https://developers.hubspot.com/docs/api/crm/deals) \(including Contact associations\) \(Incremental\)
-* [Email Events](https://developers.hubspot.com/docs/methods/email/get_events) \(Incremental\)
-* [Engagements](https://legacydocs.hubspot.com/docs/methods/engagements/get-all-engagements) \(Incremental\)
-* [Engagements Calls](https://developers.hubspot.com/docs/api/crm/calls) \(Incremental\)
-* [Engagements Emails](https://developers.hubspot.com/docs/api/crm/email) \(Incremental\)
-* [Engagements Meetings](https://developers.hubspot.com/docs/api/crm/meetings) \(Incremental\)
-* [Engagements Notes](https://developers.hubspot.com/docs/api/crm/notes) \(Incremental\)
-* [Engagements Tasks](https://developers.hubspot.com/docs/api/crm/tasks) \(Incremental\)
-* [Feedback Submissions](https://developers.hubspot.com/docs/api/crm/feedback-submissions) \(Incremental\)
+* [Campaigns](https://developers.hubspot.com/docs/methods/email/get\_campaign\_data)
+* [Companies](https://developers.hubspot.com/docs/api/crm/companies) (Incremental)
+* [Contact Lists](http://developers.hubspot.com/docs/methods/lists/get\_lists) (Incremental)
+* [Contacts](https://developers.hubspot.com/docs/methods/contacts/get\_contacts) (Incremental)
+* [Contacts List Memberships](https://legacydocs.hubspot.com/docs/methods/contacts/get\_contacts)
+* [Deal Pipelines](https://developers.hubspot.com/docs/methods/pipelines/get\_pipelines\_for\_object\_type)
+* [Deals](https://developers.hubspot.com/docs/api/crm/deals) (including Contact associations) (Incremental)
+* [Email Events](https://developers.hubspot.com/docs/methods/email/get\_events) (Incremental)
+* [Engagements](https://legacydocs.hubspot.com/docs/methods/engagements/get-all-engagements) (Incremental)
+* [Engagements Calls](https://developers.hubspot.com/docs/api/crm/calls) (Incremental)
+* [Engagements Emails](https://developers.hubspot.com/docs/api/crm/email) (Incremental)
+* [Engagements Meetings](https://developers.hubspot.com/docs/api/crm/meetings) (Incremental)
+* [Engagements Notes](https://developers.hubspot.com/docs/api/crm/notes) (Incremental)
+* [Engagements Tasks](https://developers.hubspot.com/docs/api/crm/tasks) (Incremental)
+* [Feedback Submissions](https://developers.hubspot.com/docs/api/crm/feedback-submissions) (Incremental)
 * [Forms](https://developers.hubspot.com/docs/api/marketing/forms)
 * [Form Submissions](https://legacydocs.hubspot.com/docs/methods/forms/get-submissions-for-a-form)
-* [Line Items](https://developers.hubspot.com/docs/api/crm/line-items) \(Incremental\)
-* [Marketing Emails](https://legacydocs.hubspot.com/docs/methods/cms_email/get-all-marketing-email-statistics)
-* [Owners](https://developers.hubspot.com/docs/methods/owners/get_owners)
-* [Products](https://developers.hubspot.com/docs/api/crm/products) \(Incremental\)
-* [Property History](https://legacydocs.hubspot.com/docs/methods/contacts/get_contacts) \(Incremental\)
-* [Quotes](https://developers.hubspot.com/docs/api/crm/quotes) \(Incremental\)
-* [Subscription Changes](https://developers.hubspot.com/docs/methods/email/get_subscriptions_timeline) \(Incremental\)
-* [Tickets](https://developers.hubspot.com/docs/api/crm/tickets) \(Incremental\)
+* [Line Items](https://developers.hubspot.com/docs/api/crm/line-items) (Incremental)
+* [Marketing Emails](https://legacydocs.hubspot.com/docs/methods/cms\_email/get-all-marketing-email-statistics)
+* [Owners](https://developers.hubspot.com/docs/methods/owners/get\_owners)
+* [Products](https://developers.hubspot.com/docs/api/crm/products) (Incremental)
+* [Property History](https://legacydocs.hubspot.com/docs/methods/contacts/get\_contacts) (Incremental)
+* [Quotes](https://developers.hubspot.com/docs/api/crm/quotes) (Incremental)
+* [Subscription Changes](https://developers.hubspot.com/docs/methods/email/get\_subscriptions\_timeline) (Incremental)
+* [Tickets](https://developers.hubspot.com/docs/api/crm/tickets) (Incremental)
 * [Ticket Pipelines](https://developers.hubspot.com/docs/api/crm/pipelines)
-* [Workflows](https://legacydocs.hubspot.com/docs/methods/workflows/v3/get_workflows)
+* [Workflows](https://legacydocs.hubspot.com/docs/methods/workflows/v3/get\_workflows)
 
 ### A note on the `engagements` stream
 
@@ -59,7 +59,7 @@ Depending on the type of engagement, different properties will be set for that o
 
 **Note**: HubSpot API currently only supports `quotes` endpoint using API Key, using Oauth it is impossible to access this stream (as reported by [community.hubspot.com](https://community.hubspot.com/t5/APIs-Integrations/Help-with-using-Feedback-CRM-API-and-Quotes-CRM-API/m-p/449104/highlight/true#M44411)).
 
-## Getting Started \(Airbyte Open-Source / Airbyte Cloud\)
+## Getting Started (Airbyte Open-Source / Airbyte Cloud)
 
 #### Requirements
 
@@ -67,19 +67,21 @@ Depending on the type of engagement, different properties will be set for that o
 * Api credentials
 * If using Oauth, [scopes](https://legacydocs.hubspot.com/docs/methods/oauth2/initiate-oauth-integration#scopes) enabled for the streams you want to sync
 
-{% hint style="info" %} HubSpot's API will [rate limit](https://developers.hubspot.com/docs/api/usage-details) the amount of records you can sync daily, so make sure that you are on the appropriate plan if you are planning on syncing more than 250,000 records per day. {% endhint %}
+{% hint style="info" %}
+HubSpot's API will [rate limit](https://developers.hubspot.com/docs/api/usage-details) the amount of records you can sync daily, so make sure that you are on the appropriate plan if you are planning on syncing more than 250,000 records per day.
+{% endhint %}
 
-This connector supports only authentication with API Key. To obtain API key for the account go to settings -&gt; integrations \(under the account banner\) -&gt; api key. If you already have an api key you can use that. Otherwise generated a new one. See [docs](https://knowledge.hubspot.com/integrations/how-do-i-get-my-hubspot-api-key) for more details.
+This connector supports only authentication with API Key. To obtain API key for the account go to settings -> integrations (under the account banner) -> api key. If you already have an api key you can use that. Otherwise generated a new one. See [docs](https://knowledge.hubspot.com/integrations/how-do-i-get-my-hubspot-api-key) for more details.
 
 ## Rate Limiting & Performance
 
-The connector is restricted by normal HubSpot [rate limitations](https://legacydocs.hubspot.com/apps/api_guidelines).
+The connector is restricted by normal HubSpot [rate limitations](https://legacydocs.hubspot.com/apps/api\_guidelines).
 
 When connector reads the stream using `API Key` that doesn't have neccessary permissions to read particular stream, like `workflows`, which requires to be enabled in order to be processed, the log message returned to the output and sync operation goes on with other streams available.
 
 Example of the output message when trying to read `workflows` stream with missing permissions for the `API Key`:
 
-```text
+```
 {
     "type": "LOG",
     "log": {
@@ -93,32 +95,32 @@ Example of the output message when trying to read `workflows` stream with missin
 
 If you are using Oauth, most of the streams require the appropriate [scopes](https://legacydocs.hubspot.com/docs/methods/oauth2/initiate-oauth-integration#scopes) enabled for the API account.
 
-| Stream | Required Scope |
-| :--- | :--- |
-| `campaigns` | `content` |
-| `companies` | `contacts` |
-| `contact_lists` | `contacts` |
-| `contacts` | `contacts` |
-| `contacts_list_memberships` | `contacts` |
-| `deal_pipelines` | either the `contacts` scope \(to fetch deals pipelines\) or the `tickets` scope. |
-| `deals` | `contacts` |
-| `email_events` | `content` |
-| `engagements` | `contacts` |
-| `forms` | `forms` |
-| `form_submissions`| `forms` |
-| `line_items` | `e-commerce` |
-| `owners` | `contacts` |
-| `products` | `e-commerce` |
-| `property_history` | `contacts` |
-| `quotes` | no scope required |
-| `subscription_changes` | `content` |
-| `tickets` | `tickets` |
-| `workflows` | `automation` |
+| Stream                      | Required Scope                                                                 |
+| --------------------------- | ------------------------------------------------------------------------------ |
+| `campaigns`                 | `content`                                                                      |
+| `companies`                 | `contacts`                                                                     |
+| `contact_lists`             | `contacts`                                                                     |
+| `contacts`                  | `contacts`                                                                     |
+| `contacts_list_memberships` | `contacts`                                                                     |
+| `deal_pipelines`            | either the `contacts` scope (to fetch deals pipelines) or the `tickets` scope. |
+| `deals`                     | `contacts`                                                                     |
+| `email_events`              | `content`                                                                      |
+| `engagements`               | `contacts`                                                                     |
+| `forms`                     | `forms`                                                                        |
+| `form_submissions`          | `forms`                                                                        |
+| `line_items`                | `e-commerce`                                                                   |
+| `owners`                    | `contacts`                                                                     |
+| `products`                  | `e-commerce`                                                                   |
+| `property_history`          | `contacts`                                                                     |
+| `quotes`                    | no scope required                                                              |
+| `subscription_changes`      | `content`                                                                      |
+| `tickets`                   | `tickets`                                                                      |
+| `workflows`                 | `automation`                                                                   |
 
 ## Changelog
 
 | Version | Date       | Pull Request                                             | Subject                                                                                                                                        |
-|:--------|:-----------|:---------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|
+| ------- | ---------- | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0.1.48  | 2022-03-16 | [11105](https://github.com/airbytehq/airbyte/pull/11105) | Fix float numbers, upd docs                                                                                                                    |
 | 0.1.47  | 2022-03-15 | [11121](https://github.com/airbytehq/airbyte/pull/11121) | Add partition keys where appropriate                                                                                                           |
 | 0.1.46  | 2022-03-14 | [10700](https://github.com/airbytehq/airbyte/pull/10700) | Handle 10k+ records reading in Hubspot streams                                                                                                 |
@@ -130,18 +132,18 @@ If you are using Oauth, most of the streams require the appropriate [scopes](htt
 | 0.1.40  | 2022-02-10 | [10142](https://github.com/airbytehq/airbyte/pull/10142) | Add associations to ticket stream                                                                                                              |
 | 0.1.39  | 2022-02-10 | [10055](https://github.com/airbytehq/airbyte/pull/10055) | Bug fix: reading not initialized stream                                                                                                        |
 | 0.1.38  | 2022-02-03 | [9786](https://github.com/airbytehq/airbyte/pull/9786)   | Add new streams for engagements(calls, emails, meetings, notes and tasks)                                                                      |
-| 0.1.37  | 2022-01-27 | [9555](https://github.com/airbytehq/airbyte/pull/9555)   | Getting form_submission for all forms                                                                                                          |
+| 0.1.37  | 2022-01-27 | [9555](https://github.com/airbytehq/airbyte/pull/9555)   | Getting form\_submission for all forms                                                                                                         |
 | 0.1.36  | 2022-01-22 | [7784](https://github.com/airbytehq/airbyte/pull/7784)   | Add Property History Stream                                                                                                                    |
 | 0.1.35  | 2021-12-24 | [9081](https://github.com/airbytehq/airbyte/pull/9081)   | Add Feedback Submissions stream and update Ticket Pipelines stream                                                                             |
 | 0.1.34  | 2022-01-20 | [9641](https://github.com/airbytehq/airbyte/pull/9641)   | Add more fields for `email_events` stream                                                                                                      |
 | 0.1.33  | 2022-01-14 | [8887](https://github.com/airbytehq/airbyte/pull/8887)   | More efficient support for incremental updates on Companies, Contact, Deals and Engagement streams                                             |
-| 0.1.32  | 2022-01-13 | [8011](https://github.com/airbytehq/airbyte/pull/8011)   | Add new stream form_submissions                                                                                                                |
+| 0.1.32  | 2022-01-13 | [8011](https://github.com/airbytehq/airbyte/pull/8011)   | Add new stream form\_submissions                                                                                                               |
 | 0.1.31  | 2022-01-11 | [9385](https://github.com/airbytehq/airbyte/pull/9385)   | Remove auto-generated `properties` from `Engagements` stream                                                                                   |
 | 0.1.30  | 2021-01-10 | [9129](https://github.com/airbytehq/airbyte/pull/9129)   | Created Contacts list memberships streams                                                                                                      |
 | 0.1.29  | 2021-12-17 | [8699](https://github.com/airbytehq/airbyte/pull/8699)   | Add incremental sync support for `companies`, `contact_lists`, `contacts`, `deals`, `line_items`, `products`, `quotes`, `tickets` streams      |
 | 0.1.28  | 2021-12-15 | [8429](https://github.com/airbytehq/airbyte/pull/8429)   | Update fields and descriptions                                                                                                                 |
 | 0.1.27  | 2021-12-09 | [8658](https://github.com/airbytehq/airbyte/pull/8658)   | Fixed config backward compatibility issue by allowing additional properties in the spec                                                        |
-| 0.1.26  | 2021-11-30 | [8329](https://github.com/airbytehq/airbyte/pull/8329)   | Removed 'skip_dynamic_fields' config param                                                                                                     |
+| 0.1.26  | 2021-11-30 | [8329](https://github.com/airbytehq/airbyte/pull/8329)   | Removed 'skip\_dynamic\_fields' config param                                                                                                   |
 | 0.1.25  | 2021-11-23 | [8216](https://github.com/airbytehq/airbyte/pull/8216)   | Add skip dynamic fields for testing only                                                                                                       |
 | 0.1.24  | 2021-11-09 | [7683](https://github.com/airbytehq/airbyte/pull/7683)   | Fix name issue 'Hubspot' -> 'HubSpot'                                                                                                          |
 | 0.1.23  | 2021-11-08 | [7730](https://github.com/airbytehq/airbyte/pull/7730)   | Fix oAuth flow schema                                                                                                                          |
